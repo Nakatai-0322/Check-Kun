@@ -7,7 +7,7 @@ This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
 // 数値代入部分
-const accessfrom = "アクセス元ページ:" + location.href;
+const accessfrom = "アクセス元ページ: " + location.href;
 const resolution = "解像度:" + screen.width + " x " + screen.height;
 const browser = "ブラウザー: " + platform.name + " " + platform.version;
 const os = "OS: " + platform.os.family+ " " + platform.os.version;
