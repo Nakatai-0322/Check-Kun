@@ -1,4 +1,4 @@
-/**
+/*
 Random-No
 
 Copyright (c) 2022~Present Nakatai.
