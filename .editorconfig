@@ -1,5 +1,11 @@
-# EditorConfig is awesome: https://EditorConfig.org
+#Check-Kun
+#
+#Copyright (c) 2022~Present Nakatai.
+#
+#This software is released under the MIT License.
+#https://opensource.org/licenses/mit-license.php
 
+# EditorConfig is awesome: https://EditorConfig.org
 # top-most EditorConfig file
 root = true
 

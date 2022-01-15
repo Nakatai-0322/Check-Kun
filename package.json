@@ -1,4 +1,10 @@
 {
+    "comments": [
+        "Check-Kun",
+        "Copyright (c) 2022~Present Nakatai.",
+        "This software is released under the MIT License.",
+        "https://opensource.org/licenses/mit-license.php"
+    ],
     "name": "check-kun",
     "version": "1.0.0",
     "main": "index.js",
