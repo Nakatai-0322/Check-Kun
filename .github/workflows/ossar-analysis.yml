@@ -9,13 +9,13 @@
 name: OSSAR
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ main ]
-  schedule:
-    - cron: '25 17 * * 3'
+    push:
+        branches: [ main ]
+    pull_request:
+        # The branches below must be a subset of the branches above
+        branches: [ main ]
+    schedule:
+        - cron: '25 17 * * 3'
 
 jobs:
   OSSAR-Scan:
