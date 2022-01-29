@@ -15,8 +15,8 @@ import("./lib/platform.js")
 window.onload = function onLoad() {
     const accessfrom = "アクセス元ページ: " + location.href;
     const resolution = "解像度: " + screen.width + " x " + screen.height;
-    const browser = "ブラウザ: " + platform.version
-    const os = "OS: " + platform.os
+    const browser = "ブラウザ: " + platform.version;
+    const os = "OS: " + platform.os;
 
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
