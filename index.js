@@ -9,10 +9,17 @@ https://opensource.org/licenses/mit-license.php
 //"platform.js"をインポート
 import("./lib/platform.js")
 
-//ページロード時に"out"に対し代入
+
+
+//ページロード時に各部分に対し代入
 window.onload = function onLoad() {
-    document.getElementById("accessfrom").innerHTML = location.href;
-    document.getElementById("resolution").innerHTML = screen.width + " x " + screen.height;
-    document.getElementById("browser").innerHTML = platform.version;
-    document.getElementById("os").innerHTML = platform.os;
+    const accessfrom = "アクセス元ページ: " + location.href;
+    const resolution = "解像度: " + screen.width + " x " + screen.height;
+    const browser = "ブラウザ: " + platform.version
+    const os = "OS: " + platform.os
+
+    document.getElementById("accessfrom").innerHTML = accessfrom;
+    document.getElementById("resolution").innerHTML = resolution;
+    document.getElementById("browser").innerHTML = browser;
+    document.getElementById("os").innerHTML = os;
 }
