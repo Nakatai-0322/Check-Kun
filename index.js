@@ -10,7 +10,7 @@ https://opensource.org/licenses/mit-license.php
 const accessfrom = location.href;
 const resolution = screen.width + " x " + screen.height;
 const browser = platform.name + " " + platform.version;
-const os = platform.os.family+ " " + platform.os.version;
+const os = platform.os.family + " " + platform.os.version;
 
 // ページロード時に"out*"に対し代入
 window.onload = function onLoad() {
