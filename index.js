@@ -15,11 +15,13 @@ window.onload = function onLoad() {
     const resolution = "解像度: " + screen.width + " x " + screen.height;
     const browser = "ブラウザ: " + platform.name + " " + platform.version;
     const engine = "HTMLレンダリングエンジン: " + platform.layout;
-    const os = "OS: " + platform.os;
+    const os = "OS: " + platform.os.family + " " + platform.os.version;
+    const fordevua = "ユーザーエージェント（開発者向け）: " + platform.ua;
 
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
     document.getElementById("browser").innerHTML = browser;
     document.getElementById("os").innerHTML = os;
     document.getElementById("engine").innerHTML = engine;
+    document.getElementById("fordevua").innerHTML = fordevua;
 }
