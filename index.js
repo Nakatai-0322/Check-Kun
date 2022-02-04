@@ -11,12 +11,12 @@ import("./lib/platform.js")
 
 //ページロード時に各部分に対し代入
 window.onload = function onLoad() {
-    const accessfrom = "アクセス元ページ: " + location.href;
-    const resolution = "解像度: " + screen.width + " x " + screen.height;
-    const browser = "ブラウザ: " + platform.name + " " + platform.version;
-    const engine = "HTMLレンダリングエンジン: " + platform.layout;
-    const os = "OS: " + platform.os.family + " " + platform.os.version;
-    const fordevua = "ユーザーエージェント（開発者向け）: " + platform.ua;
+    const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
+    const resolution = "解像度: " + "<code>" + screen.width + " x " + screen.height + "</code>";
+    const browser = "ブラウザ: " + "<code>" + platform.name + " " + platform.version + "</code>";
+    const engine = "HTMLレンダリングエンジン: " + "<code>" + platform.layout + "</code>";
+    const os = "OS: " + "<code>" + platform.os.family + " " + platform.os.version + "</code>";
+    const fordevua = "ユーザーエージェント（開発者向け）: " + "<code>" + platform.ua + "</code>";
 
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
