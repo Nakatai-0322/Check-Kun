@@ -25,3 +25,7 @@ window.onload = function onLoad() {
     document.getElementById("engine").innerHTML = engine;
     document.getElementById("fordevua").innerHTML = fordevua;
 }
+
+document.getElementById('copyua').addEventListener('click', function(e) {
+    copy_to_clipboard(fordevua);
+});
