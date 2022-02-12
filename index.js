@@ -9,8 +9,7 @@ https://opensource.org/licenses/mit-license.php
 //"platform.js"をインポート
 import("./lib/platform.js")
 
-//ページロード時に各部分に対し代入
-window.onload = function onLoad() {
+function Dainyu(){
     const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
     const resolution = "解像度: " + "<code>" + screen.width + " x " + screen.height + "</code>";
     const browser = "ブラウザ: " + "<code>" + platform.name + " " + platform.version + "</code>";
@@ -24,4 +23,8 @@ window.onload = function onLoad() {
     document.getElementById("os").innerHTML = os;
     document.getElementById("engine").innerHTML = engine;
     document.getElementById("fordevua").innerHTML = fordevua;
+}
+
+window.onload = function onLoad() {
+    Dainyu()
 }
