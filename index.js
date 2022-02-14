@@ -25,6 +25,4 @@ function Dainyu(){
     document.getElementById("fordevua").innerHTML = fordevua;
 }
 
-window.onload = function onLoad() {
-    Dainyu()
-}
+window.addEventListener("load",function() {Dainyu()});
