@@ -9,7 +9,7 @@ https://opensource.org/licenses/mit-license.php
 //"platform.js"をインポート
 import("./lib/platform.js");
 
-function Dainyu(){
+function Dainyu() {
     const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
     const resolution = "解像度: " + "<code>" + screen.width + " x " + screen.height + "</code>";
     const browser = "ブラウザ: " + "<code>" + platform.name + " " + platform.version + "</code>";
@@ -25,6 +25,6 @@ function Dainyu(){
     document.getElementById("fordevua").innerHTML = fordevua;
 };
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
     Dainyu()
 });
