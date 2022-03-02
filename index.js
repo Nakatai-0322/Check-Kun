@@ -7,7 +7,7 @@ This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
 //"platform.js"をインポート
-import("./lib/platform.js");
+import ("./lib/platform.js");
 
 function Dainyu() {
     const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
@@ -25,6 +25,6 @@ function Dainyu() {
     document.getElementById("fordevua").innerHTML = fordevua;
 };
 
-window.addEventListener("load", function () {
+window.addEventListener("load", function() {
     Dainyu()
 });
