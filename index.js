@@ -15,6 +15,9 @@ function Dainyu() {
     fetch('https://ipinfo.io?callback')
         .then(res => res.json())
         .then(json => rawip = json.ip)
+        .catch(error => {
+            lawip = "取得に失敗しました。";
+        });
     const ip = `IPアドレス: <code>${rawip}</code>`;
     const accessfrom = `アクセス元ページ: <code>${location.href}</code>`;
     const resolution = `解像度: <code>${screen.width} x ${screen.height}</code>`;
