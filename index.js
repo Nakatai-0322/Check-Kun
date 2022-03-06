@@ -9,7 +9,7 @@ https://opensource.org/licenses/mit-license.php
 
 import ("./lib/platform.js");
 
-let rawip = null
+let rawip = ""
 
 function callback(data) {
     rawip = data.ip
