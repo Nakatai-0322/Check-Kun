@@ -19,7 +19,6 @@ function Dainyu() {
     const script = document.createElement('script');
     script.src = 'https://ipinfo.io?callback=callback';
     document.body.appendChild(script);
-    document.body.removeChild(script);
 
     const ip = "IPアドレス: " + "<code>" + rawip + "</code>"
     const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
