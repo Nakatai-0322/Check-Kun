@@ -15,13 +15,13 @@ function Dainyu() {
     fetch('https://ipinfo.io?callback')
         .then(res => res.json())
         .then(json => rawip = json.ip)
-    const ip = "IPアドレス: " + "<code>" + rawip + "</code>"
-    const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
-    const resolution = "解像度: " + "<code>" + screen.width + " x " + screen.height + "</code>";
-    const browser = "ブラウザ: " + "<code>" + platform.name + " " + platform.version + "</code>";
-    const engine = "HTMLレンダリングエンジン: " + "<code>" + platform.layout + "</code>";
-    const os = "OS: " + "<code>" + platform.os.family + " " + platform.os.version + "</code>";
-    const fordevua = "ユーザーエージェント（開発者向け）: " + "<code>" + platform.ua + "</code>";
+    const ip = `IPアドレス: <code>${rawip}</code>`;
+    const accessfrom = `アクセス元ページ: <code>${location.href}</code>`;
+    const resolution = `解像度: <code>${screen.width} x ${screen.height}</code>`;
+    const browser = `ブラウザ: <code>${platform.name} ${platform.version}</code>`;
+    const engine = `HTMLレンダリングエンジン: <code>${platform.layout}</code>`;
+    const os = `OS: <code>${platform.os.family} ${platform.os.version}</code>`;
+    const fordevua = `ユーザーエージェント（ 開発者向け）: <code>${platform.ua}</code>`;
 
     document.getElementById("ip").innerHTML = ip;
     document.getElementById("accessfrom").innerHTML = accessfrom;
