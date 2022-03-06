@@ -10,6 +10,8 @@ import ("./lib/platform.js");
 
 let rawip = ""
 
+rawip = "IPアドレスがまだ取得されていないか，取得できない状態にあります。"
+
 function callback(data) {
     rawip = data.ip
 }
