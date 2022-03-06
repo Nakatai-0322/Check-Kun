@@ -6,7 +6,7 @@ Copyright (c) 2022~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
-import ("./lib/platform.js");
+import ("/lib/platform.js");
 
 let rawip = ""
 
