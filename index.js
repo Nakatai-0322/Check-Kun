@@ -10,11 +10,6 @@ import ("./lib/platform.js");
 
 let rawip = ""
 
-$.ajax({
-    url: "https://ipinfo.io/?callback=callback",
-    dataType: "jsonp"
-});
-
 function callback(data) {
     rawip = data.ip
 }
