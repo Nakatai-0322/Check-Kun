@@ -12,7 +12,7 @@ import ("./lib/platform.js");
 let rawip = null
 
 function Dainyu() {
-    fetch('http://ipinfo.io?callback')
+    fetch('https://ipinfo.io?callback')
         .then(res => res.json())
         .then(json => rawip = json.ip)
     const ip = `IPアドレス: <code>${rawip}</code>`;
