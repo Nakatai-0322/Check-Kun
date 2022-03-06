@@ -9,7 +9,11 @@ https://opensource.org/licenses/mit-license.php
 
 import ("./lib/platform.js");
 
-let rawip = null
+let rawip = ""
+
+function callback(data) {
+    rawip = data.ip
+}
 
 function Dainyu() {
     fetch('//ipinfo.io?callback')
@@ -25,7 +29,6 @@ function Dainyu() {
     const engine = `HTMLレンダリングエンジン: <code>${platform.layout}</code>`;
     const os = `OS: <code>${platform.os.family} ${platform.os.version}</code>`;
     const fordevua = `ユーザーエージェント（ 開発者向け）: <code>${platform.ua}</code>`;
-
     document.getElementById("ip").innerHTML = ip;
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
