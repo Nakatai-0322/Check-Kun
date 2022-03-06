@@ -9,13 +9,12 @@ https://opensource.org/licenses/mit-license.php
 
 import ("./lib/platform.js");
 
-let rawip = ""
-
-function callback(data) {
-    rawip = data.ip
-}
+let rawip = null
 
 function Dainyu() {
+    fetch('https://ipinfo.io?callback')
+        .then(res => res.json())
+        .then(json => rawip = json.ip)
     const ip = "IPアドレス: " + "<code>" + rawip + "</code>"
     const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
     const resolution = "解像度: " + "<code>" + screen.width + " x " + screen.height + "</code>";
