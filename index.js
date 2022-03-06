@@ -21,7 +21,7 @@ function Dainyu() {
     const browser = `ブラウザ: <code>${platform.name} ${platform.version}</code>`;
     const engine = `HTMLレンダリングエンジン: <code>${platform.layout}</code>`;
     const os = `OS: <code>${platform.os.family} ${platform.os.version}</code>`;
-    const fordevua = `ユーザーエージェント（ 開発者向け）: <code>${platform.ua}</code>`;
+    const fordevua = `ユーザーエージェント（開発者向け）: <code>${platform.ua}</code>`;
     document.getElementById("ip").innerHTML = ip;
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
