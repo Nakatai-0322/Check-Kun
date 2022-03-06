@@ -14,6 +14,11 @@ https://opensource.org/licenses/mit-license.php
 
 アクセス環境の確認を行えます。
 
+## 注意事項
+
+* FirefoxでのIPアドレスの取得はサポートしておりません。
+* MITライセンスを適用しているため，このソフトウェアを使用して被った一切の責任を作者等は負いません。
+
 ## 使用ライブラリ
 
 * [platform.js](https://github.com/bestiejs/platform.js)
