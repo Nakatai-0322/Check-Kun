@@ -6,22 +6,20 @@ Copyright (c) 2022~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
-
 import ("./lib/platform.js");
 
 let rawip = ""
+
+$.ajax({
+    url: "https://ipinfo.io/?callback=callback",
+    dataType: "jsonp"
+});
 
 function callback(data) {
     rawip = data.ip
 }
 
 function Dainyu() {
-    fetch('//ipinfo.io?callback')
-        .then(res => res.json())
-        .then(json => rawip = json.ip)
-        .catch(error => {
-            lawip = "取得に失敗しました。";
-        });
     const ip = `IPアドレス: <code>${rawip}</code>`;
     const accessfrom = `アクセス元ページ: <code>${location.href}</code>`;
     const resolution = `解像度: <code>${screen.width} x ${screen.height}</code>`;
