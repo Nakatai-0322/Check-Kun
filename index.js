@@ -9,17 +9,13 @@ https://opensource.org/licenses/mit-license.php
 
 import ("./lib/platform.js");
 
-let rawip = "「表示更新」のボタンを押すと表示されます。"
+let rawip = null
 
 function callback(data) {
     rawip = data.ip
 }
 
 function Dainyu() {
-    const script = document.createElement('script');
-    script.src = 'https://ipinfo.io?callback=callback';
-    document.body.appendChild(script);
-
     const ip = "IPアドレス: " + "<code>" + rawip + "</code>"
     const accessfrom = "アクセス元ページ: " + "<code>" + location.href + "</code>";
     const resolution = "解像度: " + "<code>" + screen.width + " x " + screen.height + "</code>";
