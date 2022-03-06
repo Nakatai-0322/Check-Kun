@@ -6,22 +6,26 @@ Copyright (c) 2022~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
-body{
-font-family: 
-    "Montserrat", "Noto Sans JP", "Sans-Serif";
+
+body {
+    font-family: "Montserrat", "Noto Sans JP", "Sans-Serif";
 }
 
-.wrapper{
+.wrapper {
     min-height: 100vh;
     position: relative;
     padding-bottom: 120px;
     box-sizing: border-box;
 }
 
-footer{
+footer {
     width: 100%;
     text-align: center;
     padding: 30px 0;
     position: absolute;
     bottom: 0;
+}
+
+p {
+    text-align: center;
 }
