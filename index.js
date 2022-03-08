@@ -6,7 +6,8 @@ Copyright (c) 2022~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
-import ("//cdn.jsdelivr.net/npm/platform@latest/platform.min.js");
+const platformjspath = "//cdn.jsdelivr.net/npm/platform@latest/platform.min.js"
+import (platformjspath);
 
 let rawip = ""
 
@@ -24,6 +25,7 @@ function Dainyu() {
     const engine = `HTMLレンダリングエンジン: <code>${platform.layout}</code>`;
     const os = `OS: <code>${platform.os.family} ${platform.os.version}</code>`;
     const fordevua = `ユーザーエージェント（開発者向け）: <code>${platform.ua}</code>`;
+
     document.getElementById("ip").innerHTML = ip;
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
