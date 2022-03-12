@@ -10,7 +10,7 @@ import ("//cdn.jsdelivr.net/npm/platform@latest/platform.min.js");
 
 let rawip = ""
 
-rawip = "IPアドレスがまだ取得されていないか，取得できない状態にあります。"
+rawip = "IPアドレスがまだ取得されていないか、取得できない状態にあります。"
 
 function callback(data) {
     rawip = data.ip
