@@ -7,6 +7,10 @@ This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
 
+html{
+    text-align: center;
+}
+
 body {
     font-family: "Montserrat", "Noto Sans JP", "Sans-Serif";
 }
@@ -24,8 +28,4 @@ footer {
     padding: 30px 0;
     position: absolute;
     bottom: 0;
-}
-
-p {
-    text-align: center;
 }
