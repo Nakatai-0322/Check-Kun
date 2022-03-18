@@ -16,6 +16,10 @@ function callback(data) {
     rawip = data.ip
 }
 
+window.addEventListener("load", function() {
+    Dainyu()
+});
+
 function Dainyu() {
     const ip = `IPアドレス: <code>${rawip}</code>`;
     const accessfrom = `
@@ -57,7 +61,3 @@ function Dainyu() {
     document.getElementById("engine").innerHTML = engine;
     document.getElementById("fordevua").innerHTML = fordevua;
 };
-
-window.addEventListener("load", function() {
-    Dainyu()
-});
