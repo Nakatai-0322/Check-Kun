@@ -29,8 +29,10 @@ p {
 }
 
 footer {
+    font-family: "Montserrat", sans-serif;
     position: absolute;
     width: 100%;
     padding: 30px 0;
     bottom: 0;
+    font-weight: normal;
 }
