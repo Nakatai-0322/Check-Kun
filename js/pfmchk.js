@@ -41,7 +41,7 @@ function Dainyu() {
     const os = `
 	OS: 
 	<code>
-		${platform.os.family} ${platform.os.version}
+		${platform.os.toString}
 	</code>`;
     const fordevua = `
 	ユーザーエージェント（開発者向け）: 
