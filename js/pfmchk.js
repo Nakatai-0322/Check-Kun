@@ -16,9 +16,7 @@ function callback(data) {
     rawip = data.ip
 }
 
-window.addEventListener("load", function() {
-    Dainyu()
-});
+window.addEventListener('load', Dainyu);
 
 function Dainyu() {
     const ip = `IPアドレス: <code>${rawip}</code>`;
