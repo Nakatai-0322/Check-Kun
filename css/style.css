@@ -37,3 +37,17 @@ footer {
     bottom: 0;
     font-weight: normal;
 }
+
+@media screen and (max-width: 480px) {
+p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 40px;
+}
+.out {
+    font-size: 15px;
+}
+footer {
+    font-size: 15px;
+}
+}
