@@ -15,6 +15,7 @@ function callback(data) {
 window.addEventListener('load', Dainyu);
 
 function Dainyu() {
+    const oneline = `一行でいうと: <code>${platform.toString()}</code>`
     const ip = `IPアドレス: <code>${rawip}</code>`;
     const accessfrom = `アクセス元ページ: <code>${location.href}</code>`;
     const resolution = `解像度: <code>${screen.width} x ${screen.height}</code>`;
@@ -23,6 +24,7 @@ function Dainyu() {
     const os = `OS: <code>${platform.os.toString()}</code>`;
     const fordevua = `ユーザーエージェント（開発者向け）: <code>${platform.ua}</code>`;
 
+    document.getElementById("1line").innerHTML = oneline;
     document.getElementById("ip").innerHTML = ip;
     document.getElementById("accessfrom").innerHTML = accessfrom;
     document.getElementById("resolution").innerHTML = resolution;
