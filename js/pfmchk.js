@@ -6,11 +6,11 @@ Copyright (c) 2022~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
-let rawip = "IPアドレスがまだ取得されていないか、取得できない状態にあります。"
+let rawip = "IPアドレスがまだ取得されていないか、取得できない状態にあります。";
 
 function callback(data) {
     rawip = data.ip
-}
+};
 
 window.addEventListener('load', Dainyu);
 
