@@ -14,7 +14,7 @@ function callback(json) {
 };
 
 $.ajax({
-    url: "http://ipinfo.io/?callback=callback",
+    url: "https://ipinfo.io/?callback=callback",
     dataType: "javascript"
 });
 
