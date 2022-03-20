@@ -8,9 +8,15 @@ https://opensource.org/licenses/mit-license.php
 */
 let rawip = "IPアドレスがまだ取得されていないか、取得できない状態にあります。";
 
-function callback(data) {
-    rawip = data.ip
+function callback(json) {
+    console.log(json);
+    rawip = json.ip
 };
+
+$.ajax({
+    url: "http://ipinfo.io/?callback=callback",
+    dataType: "javascript"
+});
 
 window.addEventListener('load', Dainyu);
 
