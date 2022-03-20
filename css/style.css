@@ -29,7 +29,7 @@ p {
     line-height: 40px;
 }
 
-.out {
+div.out {
     font-family: "IBM Plex Mono", monospace;
     font-size: 25px;
 }
