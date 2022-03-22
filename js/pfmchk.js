@@ -13,11 +13,6 @@ function callback(json) {
     rawip = json.ip
 };
 
-$.ajax({
-    url: "https://ipinfo.io/?callback=callback",
-    dataType: "javascript"
-});
-
 window.addEventListener('load', Dainyu);
 
 function Dainyu() {
