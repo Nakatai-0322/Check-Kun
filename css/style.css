@@ -14,7 +14,7 @@ https://opensource.org/licenses/mit-license.php
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 body {
-    font-family: "Montserrat", "Noto Sans JP", sans-serif;
+    font-family: "Montserrat", "Noto Sans JP", sans-serif!important;
     text-align: center;
     font-size: 20px;
 }
