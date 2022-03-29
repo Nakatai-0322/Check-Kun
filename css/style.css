@@ -48,6 +48,10 @@ footer {
     font-weight: normal;
 }
 
+.plzusejs{
+    font-weight: bold;
+}
+
 @media screen and (max-width: 480px) {
     p {
         font-weight: normal;
@@ -64,5 +68,3 @@ footer {
     }
     ;
 }
-
-;
