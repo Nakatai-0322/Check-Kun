@@ -10,7 +10,7 @@ let rawip = "IPアドレスがまだ取得されていないか、取得でき�
 
 function callback(json) {
     console.log(json);
-    rawip = json.ip
+    rawip = json.ip;
 };
 
 window.addEventListener('load', Dainyu);
