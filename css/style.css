@@ -19,7 +19,7 @@ body {
     font-size: 20px;
 }
 
-h1{
+h1 {
     font-family: "Montserrat", "Noto Sans JP", sans-serif;
 }
 
@@ -30,7 +30,7 @@ p {
     line-height: 40px;
 }
 
-code{
+code {
     font-family: "JetBrains Mono", "Noto Sans JP", sans-serif;
 }
 
@@ -48,7 +48,7 @@ footer {
     font-weight: normal;
 }
 
-.plzusejs{
+.plzusejs {
     font-weight: bold;
 }
 
