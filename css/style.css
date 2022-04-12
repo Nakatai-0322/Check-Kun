@@ -17,27 +17,27 @@ body {
     font-family: "Montserrat", "Noto Sans JP", sans-serif!important;
     text-align: center;
     font-size: 20px;
-}
+};
 
 h1 {
     font-family: "Montserrat", "Noto Sans JP", sans-serif;
-}
+};
 
 p {
     font-family: "JetBrains Mono", "Noto Sans JP", sans-serif;
     font-weight: normal;
     font-size: 20px;
     line-height: 40px;
-}
+};
 
 code {
     font-family: "JetBrains Mono", "Noto Sans JP", sans-serif;
-}
+};
 
 .out {
     font-family: "Montserrat", "Noto Sans JP", monospace;
     font-size: 25px;
-}
+};
 
 footer {
     font-family: "Montserrat", "Noto Sans JP", sans-serif;
@@ -46,25 +46,22 @@ footer {
     padding: 30px 0;
     bottom: 0;
     font-weight: normal;
-}
+};
 
 .plzusejs {
     font-weight: bold;
-}
+};
 
 @media screen and (max-width: 480px) {
     p {
         font-weight: normal;
         font-size: 15px;
         line-height: 40px;
-    }
-    ;
+    };
     .out {
         font-size: 15px;
-    }
-    ;
+    };
     footer {
         font-size: 15px;
-    }
-    ;
+    };
 }
