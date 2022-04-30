@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Check-Kun
 
@@ -6,9 +7,6 @@ Copyright (c) 2022~Present Nakatai.
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
 */
-
-@charset "UTF-8";
-
 @import url("//fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("//fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("//fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
