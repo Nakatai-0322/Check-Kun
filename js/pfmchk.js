@@ -13,7 +13,7 @@ function callback(json) {
     rawip = json.ip;
 };
 
-window.addEventListener('load', Dainyu);
+window.addEventListener('load', Dainyu());
 
 function Dainyu() {
     const oneline = `一行でいうと: <code>${platform.toString()}</code>`
