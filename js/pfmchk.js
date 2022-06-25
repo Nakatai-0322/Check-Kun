@@ -3,7 +3,7 @@ Check-Kun
 
 Copyright (c) 2022~Present Nakatai.
 
-This software is released under the MIT License.
+This software is released under the Apache-2.0 License.
 https://opensource.org/licenses/mit-license.php
 */
 let rawip = "IPアドレスがまだ取得されていないか、取得できない状態にあります。";
