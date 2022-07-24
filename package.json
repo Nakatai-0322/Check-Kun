@@ -1,0 +1,16 @@
+{
+    "name": "check-kun",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Nakatai-0322/Check-Kun.git",
+    "author": "Nakatai-0322 <nakatai0322@gmail.com>",
+    "license": "Apache-2.0 OR MIT",
+    "private": false,
+    "dependencies": {
+        "@popperjs/core": "^2.11.5",
+        "startbootstrap-sb-admin": "^7.0.5"
+    },
+    "devDependencies": {
+        "sass": "^1.53.0"
+    }
+}
