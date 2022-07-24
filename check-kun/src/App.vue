@@ -2,12 +2,12 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import CheckKun from './components/CheckKun.vue'
-import footerComp from "./components/Footer.vue"
+import FooterComp from "./components/Footer.vue"
 </script>
 
 <template>
     <CheckKun/>
-    <footerComp/>
+    <FooterComp/>
 </template>
 
 <style>
