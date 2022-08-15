@@ -13,51 +13,51 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-style: normal;
-    zoom: 1;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	zoom: 1;
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+	display: block;
 }
 table {
-    border-collapse: collapse;
-    font-family: inherit;
+	border-collapse: collapse;
+	font-family: inherit;
 }
 h1,h2,h3,h4,h5 {
-    font-size: 100%;
-    font-weight: normal;
-    line-height: 1;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1;
 }
 input,textarea,select {
-    font-family: inherit;
-    font-size: 16px;
+	font-family: inherit;
+	font-size: 16px;
 }
 input[type="button"],input[type="text"],input[type="submit"] {
-    -webkit-appearance: none;
-    border-radius: 0;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 textarea {
-    resize: none;
-    -webkit-appearance: none;
-    border-radius: 0;
+	resize: none;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 th,td {
-    border-collapse: collapse;
+	border-collapse: collapse;
 }
 table th,table td {
-    white-space: nowrap;
+	white-space: nowrap;
 }
 ul,ol {
-    list-style-type: none;
+	list-style-type: none;
 }
 img {
-    vertical-align: text-bottom;
-    vertical-align: -webkit-baseline-middle;
-    max-width: 100%;
-    height: auto;
-    width /***/:auto;
+	vertical-align: text-bottom;
+	vertical-align: -webkit-baseline-middle;
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;
 }
