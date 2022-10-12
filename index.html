@@ -1,22 +1,11 @@
 <!DOCTYPE html>
-<!--
-Check-Kun
-
-Copyright (c) 2022~Present Nakatai.
-
-This software is released under the Apache-2.0 License.
-https://opensource.org/licenses/mit-license.php
-
-This software used "bootstrap" and "platform.js"
-and their software available under "MIT license".
--->
-<html lang="ja">
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>アクセス環境表示ツール</title>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vite App</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 	<link href="/css/style.min.css" rel="stylesheet">
@@ -26,60 +15,8 @@ and their software available under "MIT license".
 </head>
 
 <body>
-	<a href="/">
-		<h1 class="text-info my-4">
-			アクセス環境表示ツール
-		</h1>
-	</a>
-	<p>
-		アクセスされている環境を表示します。
-		<br>
-		<strong>
-			サーバー側に情報は流出しません。
-		</strong>
-	</p>
-	<noscript>
-		<p class="plzusejs">
-			このサイトでは<a href="https://w.wiki/3EDd">JavaScript</a>を使用しています。<br>
-			当サイトのコンテンツを表示するには、JavaScriptを有効にしてください。
-		</p>
-	</noscript>
-	<form mb="4" id="form">
-		<input type="button" class="btn btn-outline-danger active" value="表示更新" onclick="Dainyu();">
-	</form>
-	<div class="out">
-		<div id="1line"></div>
-		<div id="ip"></div>
-		<div id="accessfrom"></div>
-		<div id="resolution"></div>
-		<div id="browser"></div>
-		<div id="os"></div>
-		<div id="engine"></div>
-		<div id="fordevua"></div>
-	</div>
-	<footer>
-		Create by <a href="https://nakatai.xyz">Nakatai</a>.<br>
-		This software used
-		<a href="https://github.com/bestiejs/platform.js">
-			platform.js
-		</a> &nbsp;,&nbsp;
-		<a href="https://getbootstrap.jp/">
-			bootstrap
-		</a>&nbsp;and&nbsp;
-		<a href="https://ipinfo.io/">
-			ipinfo.io
-		</a>.
-		<br>
-		<a href="https://github.com/Nakatai-0322/Check-Kun">
-			GitHub Source
-		</a>&nbsp;/&nbsp;
-		<a href="https://github.com/Nakatai-0322/Check-Kun/issues">
-			Issue
-		</a><br>
-		<a href="https://github.com/Nakatai-0322/Check-Kun/actions/workflows/pages/pages-build-deployment">
-			<img src="//github.com/Nakatai-0322/Check-Kun/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main" alt="ビルド状況のバッジ">
-		</a>
-	</footer>
+	<div id="app"></div>
+	<script type="module" src="/src/main.js"></script>
 </body>
 
 </html>

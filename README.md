@@ -1,35 +1,35 @@
-<!--
-Check-Kun
+# check-kun
 
-Copyright (c) 2022~Present Nakatai.
+This template should help get you started developing with Vue 3 in Vite.
 
-This software is released under the MIT License.
-https://opensource.org/licenses/mit-license.php
--->
+## Recommended IDE Setup
 
-# Check-Kun
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNakatai-0322%2FCheck-Kun.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNakatai-0322%2FCheck-Kun?ref=badge_shield)
+## Customize configuration
 
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-アクセス環境の確認を行えます。
+## Project Setup
 
-## 注意事項
+```sh
+yarn
+```
 
-* FirefoxでのIPアドレスの取得はサポートしておりません。
-* Apacheライセンスを適用しているため、このソフトウェアを使用して被った一切の責任を作者等は負いません。
+### Compile and Hot-Reload for Development
 
-## 使用ライブラリ
+```sh
+yarn dev
+```
 
-* [platform.js](https://github.com/bestiejs/platform.js)
-* [bootstrap](https://getbootstrap.jp)
+### Compile and Minify for Production
 
-## 作成者
+```sh
+yarn build
+```
 
-* [Nakatai](https://github.com/Nakatai-0322)
-* [Contributors](https://github.com/Nakatai-0322/Check-Kun/graphs/contributors)
+### Lint with [ESLint](https://eslint.org/)
 
-
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNakatai-0322%2FCheck-Kun.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNakatai-0322%2FCheck-Kun?ref=badge_large)
+```sh
+yarn lint
+```
