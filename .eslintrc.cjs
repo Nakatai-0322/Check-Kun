@@ -14,6 +14,8 @@ module.exports = {
 	rules: {
 		"no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
 		"no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+		"no-unused-vars": "off",
+		"no-undef": "off",
 		quotes: ["error", "double"],
 		semi: ["error", "always"],
 		indent: ["error", "tab"],
