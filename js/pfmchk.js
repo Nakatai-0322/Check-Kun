@@ -11,12 +11,12 @@ let rawip = "IPアドレスがまだ取得されていないか、取得でき�
 function callback(json) {
 	console.log(json);
 	rawip = json.ip;
-};
+}
 
-window.addEventListener('load', Dainyu());
+window.addEventListener("load", Dainyu());
 
 function Dainyu() {
-	const oneline = `一行でいうと: <code>${platform.toString()}</code>`
+	const oneline = `一行でいうと: <code>${platform.toString()}</code>`;
 	const ip = `IPアドレス: <code>${rawip}</code>`;
 	const accessfrom = `アクセス元ページ: <code>${location.href}</code>`;
 	const resolution = `解像度: <code>${screen.width} x ${screen.height}</code>`;
@@ -33,4 +33,4 @@ function Dainyu() {
 	document.getElementById("os").innerHTML = os;
 	document.getElementById("engine").innerHTML = engine;
 	document.getElementById("fordevua").innerHTML = fordevua;
-};
+}

@@ -1,5 +1,5 @@
 <script setup>
-import Result from '../components/ResultComp.vue'
+import Result from "../components/ResultComp.vue";
 </script>
 
 <template>
